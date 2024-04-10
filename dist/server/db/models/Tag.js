@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0}),exports.Tag=void 0;var config_1=require("../config"),sequelize_1=require("sequelize");exports.Tag=config_1.sequelize.define("Tag",{tag_name:{type:sequelize_1.STRING,allowNull:!1,primaryKey:!0}},{tableName:"Tag"});

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSINT Framework</title>
+    <link rel="stylesheet" href="/assets/css/base/globals.css">
+    <link rel="stylesheet" href="/assets/css/pages/main.css">
+    <link rel="stylesheet" href="/assets/css/base/utils.css">
+    <script type="module" src="/assets/js/load-web.js"></script>
+    <script type="module" src="/assets/js/search.js"></script>
+</head>
+<body>
+    <main class="main-container">
+        <div class="busqueda-container">
+            <section class="busqueda">
+                <article class="seleccion">
+                    <h2>OBTENER</h2>
+                    <select id="tag-obtener"></select>
+                </article>
+                <article class="seleccion">
+                    <h2>A TRAVÉS DE</h2>
+                    <select id="tag-buscar"></select>
+                </article>
+                <article class="seleccion">
+                    <h2>Tipo de fuente:</h2>
+                    <select id="tipo-fuente">
+                        <option value="todos" selected>Todos</option>
+                    </select>
+                </article>
+            </section>
+            <button id="buscar">Buscar</button>
+        </div>
+    </main>
+    <footer>
+        <p>Creado por José Julio Soldado Carmona</p>
+    </footer>
+    <aside class="panel-resultados">
+        <h2>Resultados</h2>
+        <div class="resultados-container">
+            <h2 id="no-resultados">Configure los filtros para comenzar con las búsquedas</h2>
+            <section id="resultados"></section>
+        </div>
+    </aside>
+</body>
+</html>

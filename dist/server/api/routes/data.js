@@ -1,0 +1,1 @@
+"use strict";Object.defineProperty(exports,"__esModule",{value:!0});var GET_TAG="/get-tag",GET_TYPE_SOURCE="/get-type-source",SEARCH_SOURCE="/search-source";exports.default={GET_TAG:GET_TAG,GET_TYPE_SOURCE:GET_TYPE_SOURCE,SEARCH_SOURCE:SEARCH_SOURCE};
