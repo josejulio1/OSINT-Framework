@@ -5,7 +5,8 @@
   "main": "server.ts",
   "scripts": {
     "dev": "gulp dev",
-    "prod": "gulp prod"
+    "prod": "gulp prod",
+    "host": "node dist/server/server.js"
   },
   "keywords": [
     "osint",
